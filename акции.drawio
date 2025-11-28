@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Страница-1" id="5dtoSBGP4hn4LAVZ9WA4">
+    <mxGraphModel dx="2666" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-3" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-4" connectable="0" parent="0WFDwzVML6W1xiBnEJrJ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="False" vertex="1">
+          <mxGeometry relative="1" x="0.0143" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-15" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Адрес есть в списке" vertex="1">
+          <mxGeometry height="190" width="230" x="60" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создать запись в списке адрес, дата начала, дата завершения (если до 14 числа этот и еще 2 месяца. если после 14 - то еще 3 месяца до 1 числа) + Brand + telegram_id(пользователь чека) +&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="340" x="-420" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-9" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-10" connectable="0" parent="0WFDwzVML6W1xiBnEJrJ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.0871" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-12" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-13" connectable="0" parent="0WFDwzVML6W1xiBnEJrJ-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="False" vertex="1">
+          <mxGeometry relative="1" x="0.0914" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="У пользователя есть разделение баланса?" vertex="1">
+          <mxGeometry height="190" width="230" x="740" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="У пользователя есть разделение баланса?" vertex="1">
+          <mxGeometry height="190" width="230" x="740" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Начислить баллы" vertex="1">
+          <mxGeometry height="190" width="230" x="1050" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="230" x="60" y="-290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
