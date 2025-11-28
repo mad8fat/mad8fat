@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Страница-1" id="5dtoSBGP4hn4LAVZ9WA4">
-    <mxGraphModel dx="2666" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6504" dy="5052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-91" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-90" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-80" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="race_condtion" vertex="1">
+          <mxGeometry height="110" width="110" x="790" y="-450" as="geometry" />
+        </mxCell>
         <mxCell id="0WFDwzVML6W1xiBnEJrJ-3" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -12,14 +18,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0WFDwzVML6W1xiBnEJrJ-15" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-14" value="">
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-2" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0WFDwzVML6W1xiBnEJrJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Адрес есть в списке" vertex="1">
-          <mxGeometry height="190" width="230" x="60" y="-20" as="geometry" />
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-6" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.0778" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="0WFDwzVML6W1xiBnEJrJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создать запись в списке адрес, дата начала, дата завершения (если до 14 числа этот и еще 2 месяца. если после 14 - то еще 3 месяца до 1 числа) + Brand + telegram_id(пользователь чека) +&amp;nbsp;" vertex="1">
-          <mxGeometry height="190" width="340" x="-430" y="120" as="geometry" />
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Адрес есть в таблице welcome_promotions?" vertex="1">
+          <mxGeometry height="190" width="230" x="100" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-29" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создать запись в welcome_promotions address, дата начала, дата завершения (если до 14 числа этот и еще 2 месяца. если после 14 - то еще 3 месяца до 1 числа) + Brand + telegram_id(пользователь чека)&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="340" x="-440" y="150" as="geometry" />
         </mxCell>
         <mxCell id="0WFDwzVML6W1xiBnEJrJ-9" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-8" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -46,8 +60,169 @@
         <mxCell id="0WFDwzVML6W1xiBnEJrJ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Начислить баллы" vertex="1">
           <mxGeometry height="190" width="230" x="1050" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="0WFDwzVML6W1xiBnEJrJ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="190" width="230" x="60" y="-290" as="geometry" />
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-10" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-11" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.3138" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-16" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="0WFDwzVML6W1xiBnEJrJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-21" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="False" vertex="1">
+          <mxGeometry relative="1" x="-0.5044" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WFDwzVML6W1xiBnEJrJ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Есть ли план по адресу из чека у пользователя? where telegram_id, address, brand в таблице&amp;nbsp;public.user_sales_plans&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="230" x="100" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-4" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-5" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="False" vertex="1">
+          <mxGeometry relative="1" x="-0.0927" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Есть активная акция?" vertex="1">
+          <mxGeometry height="190" width="230" x="450" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="795" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-78" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="0WFDwzVML6W1xiBnEJrJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-79" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="false" vertex="1">
+          <mxGeometry relative="1" x="0.0432" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="status=active?" vertex="1">
+          <mxGeometry height="190" width="230" x="410" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-22" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Отключатель акций - проверяет в 00:01 каждый день есть ли акции у которых period_end=today если находит меняет status в таблице&amp;nbsp;user_sales_plans на completed&lt;br&gt;проверяет акции в таблице welcome_promotions и если period_end=today меняет status=completed" vertex="1">
+          <mxGeometry height="330" width="330" x="-420" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-26" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="агрегирует brand,pack_size - если больше 1 бренда раздает нескольким воркерам" vertex="1">
+          <mxGeometry height="190" width="230" x="100" y="-980" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-27" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="0WFDwzVML6W1xiBnEJrJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="воркер получает receipt_id+address+brand+pack_size" vertex="1">
+          <mxGeometry height="190" width="230" x="100" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-31" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-32" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.0375" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="проверяет есть ли brand в таблице&amp;nbsp;promotion_config -&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="340" x="-440" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-34" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;Считает сумму вознаграждения pack_size*welcome_points_per_pack" vertex="1">
+          <mxGeometry height="190" width="340" x="-440" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-36" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Проверяет нет ли условий разделения баланса" vertex="1">
+          <mxGeometry height="190" width="340" x="-440" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="race_condition: создает запись о начислении баланса, прибавляет баланс пользователю(защита от одновременной обработки с другим воркером по другому бренду), Создает запись о необходимости отправить уведомление в очередь уведомлений+тому кому пользователь дарит баллы" vertex="1">
+          <mxGeometry height="190" width="340" x="-440" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-60" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-75" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="current_progress&amp;gt;=80" vertex="1">
+          <mxGeometry relative="1" x="-0.1282" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-72" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="BzWsEdtTqo0gSTIqO3Ju-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-73" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="current_progress&amp;lt;!=80" vertex="1">
+          <mxGeometry relative="1" x="0.0967" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="прибавляет pack_size_operation по бренду к&amp;nbsp; current_pack_size, пересчитывает current_progress=current_pack_size/target_pack_size" vertex="1">
+          <mxGeometry height="190" width="350" x="1200" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Отправляет уведомление о достигнутом прогрессе по плану. сколько осталось дней и пачек." vertex="1">
+          <mxGeometry height="200" width="280" x="1235" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-67" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-68" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="False" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="проверяет treshhold_80_awarded = true?&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="230" x="1810" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-70" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-71" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="true" vertex="1">
+          <mxGeometry relative="1" x="0.0792" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-94" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="current_progress=&amp;gt;100" vertex="1">
+          <mxGeometry height="190" width="230" x="1810" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-77" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BzWsEdtTqo0gSTIqO3Ju-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="treshhold_80_awarded=true, trashhold_100_awarded = true, создает запись о начислении баланса в&amp;nbsp;points_transactions&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="270" x="1790" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создает запись о необходимости отправить уведомление в очередь уведомлений" vertex="1">
+          <mxGeometry height="190" width="270" x="1790" y="-1290" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-81" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BzWsEdtTqo0gSTIqO3Ju-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-82" connectable="0" parent="BzWsEdtTqo0gSTIqO3Ju-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="true" vertex="1">
+          <mxGeometry relative="1" x="0.0179" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-92" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="BzWsEdtTqo0gSTIqO3Ju-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-90" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="записывает новое значение в поле pack_size_operation в плане user_sales_plans -&amp;nbsp;" vertex="1">
+          <mxGeometry height="140" width="140" x="980" y="-465" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-96" edge="1" parent="1" source="BzWsEdtTqo0gSTIqO3Ju-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="BzWsEdtTqo0gSTIqO3Ju-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="создает запись pack_size_operations*plan_points_x1 из таблицы&amp;nbsp;promotion_config с строкой где config_type=sales_plan and brand=полученному вначале" vertex="1">
+          <mxGeometry height="190" width="230" x="2160" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="BzWsEdtTqo0gSTIqO3Ju-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создает запись о необходимости отправить уведомление в очередь уведомлений" vertex="1">
+          <mxGeometry height="190" width="270" x="2480" y="-760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
