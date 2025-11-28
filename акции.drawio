@@ -19,7 +19,7 @@
           <mxGeometry height="190" width="230" x="60" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="0WFDwzVML6W1xiBnEJrJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создать запись в списке адрес, дата начала, дата завершения (если до 14 числа этот и еще 2 месяца. если после 14 - то еще 3 месяца до 1 числа) + Brand + telegram_id(пользователь чека) +&amp;nbsp;" vertex="1">
-          <mxGeometry height="190" width="340" x="-420" y="90" as="geometry" />
+          <mxGeometry height="190" width="340" x="-430" y="120" as="geometry" />
         </mxCell>
         <mxCell id="0WFDwzVML6W1xiBnEJrJ-9" edge="1" parent="1" source="0WFDwzVML6W1xiBnEJrJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0WFDwzVML6W1xiBnEJrJ-8" value="">
           <mxGeometry relative="1" as="geometry" />
